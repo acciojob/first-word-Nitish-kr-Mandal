@@ -5,12 +5,13 @@ function firstWord(s) {
 
 	let result = ''
 	for (let i = 0; i < s.length; i++) {
-		result+= s[i]
 		if (s[i] === " " ) {
 			return result
 		}
+		result+= s[i]
 	}
-	return ' '
+
+	return result
 }
 
 // Do not change the code below
